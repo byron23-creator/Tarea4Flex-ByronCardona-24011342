@@ -1,0 +1,41 @@
+/*BannerArticle CSS*/
+p{
+    color: grey;
+    font-size: smaller;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.container {
+    display: flex;
+    position: relative;
+    border: 2px solid;
+    border-color: #BAC2CA;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 760Px;
+    height: 500px;
+}
+
+.container .item:nth-child(1){
+    width: 680px;
+    height: 65px;
+}
+            
+.container .item:nth-child(2) p{
+    width: 680px;
+    height: 60px;
+}          
+.container .item:nth-child(3) img{
+    border-radius: 1%;
+}           
+
+
+/*BannerArticle CSS*/
